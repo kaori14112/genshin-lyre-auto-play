@@ -1,34 +1,38 @@
 # genshin-lyre-auto-play
-根据midi文件演奏“风物之诗琴”的脚本。由python驱动。
+A script for playing "The Poems of Wind" according to the midi file. Driven by python.
 
-## 运行环境
+## The operating environment
 
 ```
 Windows
 python 3.x
-pywin32 （用于模拟键盘输入）
+pywin32 （Used to simulate keyboard input ）
 ```
 
-配置好python环境后使用pip install pywin32命令安装模块。
+When the python environment is configured, install the module using the pip install pywin32 numpy command.
 
-## 使用方法
+## Instructions
 
-对于没有接触过相关内容的用户，可以使用由@shadlc打包的exe文件：[下载链接](https://github.com/Misaka17032/genshin-lyre-auto-play/releases/download/V1.0/piano.exe)
+For users who have not been exposed to relevant content, you can use the exe file packaged by @shadlc: [download link](https://github.com/Misaka17032/genshin-lyre-auto-play/releases/download/V1.0/piano.exe)
 
-将midi文件直接拖放在文件之上即可开始。
+Drag and drop the midi file directly on top of the file to start.
 
-将曲谱放入名为`songs`的文件夹，并确保midi文件中的音符在中央C和上下两个八度的白键位。
+Put the score into a folder named `songs`, and make sure that the notes in the midi file are in the center C and two octaves of white keys up and down.
 
-双击run.bat或者使用管理员权限运行`python piano.py`
+Double-click run.bat or run `python piano.py` with administrator privileges
 
-按照提示输入midi文件名（不包含后缀，即`.mid`）以及沉睡时间（即等待几秒开始播放）。
+Follow the prompts to enter the midi file name (not including the suffix, that is, `.mid`) and the sleeping time (ie, wait a few seconds to start playing).
 
-请务必在开始演奏前切换回游戏内页面，并且在演奏过程中保持在游戏内。
+Be sure to switch back to the in-game page before starting to play, and stay in the game during the performance.
 
-## 声明
+## Statement
 
-转载请务必加上来源，谢谢。
+Please be sure to add the source for reprinting, thank you.
 
-多人联携模式正在开发中。
+The multi-person linkage mode is under development.
 
-可以给一个star嘛，秋梨膏~
+Can you give a star, Qiuli Gao~
+
+Sources: https://github.com/Misaka17032/genshin-lyre-auto-play
+
+Note: This is Engsub version, i do not own this repo.
